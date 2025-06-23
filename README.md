@@ -23,6 +23,7 @@ To run the game:
     - Type 'Create New Terminal'
     - Press Enter
 3. Run the command: `python3 -m http.server 8000'
+4. Open the website at: localhost:8000 (Copy paste this in your browser's URL field)
 4. Click on the Rotating Title
 5. Read the Instructions
 6. Press Play
