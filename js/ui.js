@@ -22,6 +22,9 @@ class UIManager {
     // Track current screen state to manage UI transitions ('home' or 'game')
     this.currentScreen = 'home';
 
+    /* ============================ */
+    /* THIS IS THE BACK BUTTON TEXT */
+    /* ============================ */
     // Create and append global UI buttons for navigation and help
     this.backButton = this.createButton('back-btn', 'CHANGE HERE', ['btn', 'mt-2']);
     this.helpButton = this.createButton('helpbox-button', '?', []);

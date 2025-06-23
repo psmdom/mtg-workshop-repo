@@ -28,7 +28,7 @@ const LETTERS = [
 /**
  * Maps each letter to its image filename.
  * Constructed dynamically from LETTERS
- * Example: { 'ب': 'ب.png', 'پ': 'پ.png', ... }
+ * Example: { 'ā': 'ā.png', 'ng': 'ng.png', ... }
  */
 export const letterMap = LETTERS.reduce((acc, letter) => {
   acc[letter] = `${letter}.png`;

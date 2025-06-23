@@ -24,7 +24,9 @@ export default class HelpBox {
       this.attachEvents();
       this.hide(); // Initialize hidden
     }
-  
+    /* =========================== */
+    /* THIS IS THE HELPBOX ELEMENT */
+    /* =========================== */
     /**
      * Creates the modal DOM structure, sets accessibility attributes,
      * and appends it to the parent element.

@@ -82,9 +82,13 @@ export default class ScoreManager {
   updateDisplay({ animate = false, showTotal = false } = {}) {
     if (!this.displayElement) return;
 
+    /* ====================== */
+    /* THIS IS THE SCORE TEXT */
+    /* ====================== */
+
     const scoreText = showTotal
-      ? `CHANGEHERE: ${this.totalScore}`
-      : `CHANGEHERE: ${this.score}`;
+      ? `CHANGEHERE: ${this.totalScore}` // Add a Title for Representing Total Score
+      : `CHANGEHERE: ${this.score}`; // Add a Title for Representing Current Score
 
     if (this.displayElement.textContent !== scoreText) {
       this.displayElement.textContent = scoreText;

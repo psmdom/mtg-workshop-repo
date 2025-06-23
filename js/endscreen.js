@@ -32,7 +32,10 @@ const ID = {
       this.attachEvents();
       this.hide();  // Start hidden
     }
-  
+
+    /* ============================== */
+    /* THIS IS THE END SCREEN ELEMENT */
+    /* ============================== */
     /**
      * Builds the modal DOM structure and appends it to the parent element.
      */
