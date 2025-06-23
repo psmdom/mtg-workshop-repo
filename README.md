@@ -16,10 +16,9 @@ Built entirely with **pure HTML, CSS, and vanilla JavaScript**, this project req
 
 ## Getting Started
 
-To run the game locally:  
-
-1. Download or clone the repository.  
-2. Open the terminal
+To run the game:  
+ 
+1. Open the terminal
     - Press Command + Shift + P
     - Type 'Create New Terminal'
     - Press Enter
